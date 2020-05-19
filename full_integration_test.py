@@ -33,37 +33,37 @@ if __name__ == '__main__':
     baseAPITester.log('Full Integration Testing')
     if user_details['status']:
         baseAPITester.createuser(user_details)
-        if user_details['status']:
-            baseAPITester.otheruserdetails(user_details)
-            if user_details['status']:
-                baseAPITester.userdetails(user_details)
-                if user_details['status']:
-                    baseAPITester.updateuser(user_details)
-                    if user_details['status']:
-                        if user_details['status']:
-                            baseAPITester.user_delete(user_details)
-                            baseAPITester.audittrail(user_details)
-                            if user_details['status']:
-                                baseAPITester.allorder(user_details)
-                                if user_details['status']:
-                                    baseAPITester.order_details(user_details)
-                                    if user_details['status']:
-                                        baseAPITester.order_modify(user_details)
-                                        if user_details['status']:
-                                            baseAPITester.order_locked(user_details)
-                                            if user_details['status']:
-                                                baseAPITester.create_refund(user_details)
-                                                if user_details['status']:
-                                                    baseAPITester.update_refund(user_details)
-                                                    if user_details['status']:
-                                                        baseAPITester.delivery_fund(user_details)
-                                                        if user_details['status']:
-                                                            baseAPITester.redemption_detail(user_details)
-                                                            if user_details['status']:
-                                                                baseAPITester.update_refund(user_details)
-                                                                if user_details['status']:
-                                                                    baseAPITester.margincal(user_details)
-                                                                    if user_details['status']:
-                                                                        baseAPITester.user_delete(user_details)
+    if user_details['status']:
+        baseAPITester.otheruserdetails(user_details)
+    if user_details['status']:
+        baseAPITester.userdetails(user_details)
+    if user_details['status']:
+        baseAPITester.updateuser(user_details)
+    if user_details['status']:
+        baseAPITester.user_delete(user_details)
+    if user_details['status']:
+        baseAPITester.audittrail(user_details)
+    if user_details['status']:
+        baseAPITester.allorder(user_details)
+    if user_details['status']:
+        baseAPITester.order_details(user_details)
+    if user_details['status']:
+        baseAPITester.order_modify(user_details)
+    if user_details['status']:
+        baseAPITester.order_locked(user_details)
+    if user_details['status']:
+        baseAPITester.create_refund(user_details)
+    if user_details['status']:
+        baseAPITester.update_refund(user_details)
+    if user_details['status']:
+        baseAPITester.delivery_fund(user_details)
+    if user_details['status']:
+        baseAPITester.redemption_detail(user_details)
+    if user_details['status']:
+        baseAPITester.update_refund(user_details)
+    if user_details['status']:
+        baseAPITester.margincal(user_details)
+    if user_details['status']:
+        baseAPITester.user_delete(user_details)
     print(user_details['userid'])
 
