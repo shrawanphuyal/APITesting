@@ -4,7 +4,7 @@ import os
 # superadmin_creds
 superadmin = {
     'email': 'satkarph@gmail.com',
-    'password': 'nepal1234'
+    'password': 'nepssal1234'
 }
 
 # user details
